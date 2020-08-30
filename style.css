@@ -3,13 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
-body {
-  background: #272727;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-}
+
 .menu-btn {
   position: relative;
   display: flex;
@@ -37,7 +31,7 @@ body {
   height: 6px;
   background: #fff;
   border-radius: 5px;
-  box-shadow: 0 2px 5px rgba(255,101,47,.2);
+  box-shadow: 0 2px 5px rgba(169, 226, 14, 0.2);
   transition: all .5s ease-in-out;
 }
 .menu-btn__burger::before {
